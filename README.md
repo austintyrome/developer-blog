@@ -9,7 +9,7 @@ A blog to share tips and tricks on web development.
 ## GitHub
 
    ```
-   git clone [https://github.com/your_username/developers_blog.git](https://github.com/austintyrome/developer-blog)
+[https://github.com/your_username/developers_blog.git](https://github.com/austintyrome/developer-blog)
 ```
 ##Contact
 austintyrome@gmail.com
