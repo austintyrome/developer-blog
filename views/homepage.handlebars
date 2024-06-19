@@ -1,0 +1,18 @@
+<section style="display: flex; flex-direction: column; justify-content: center;">
+{{#if loggedIn}}
+    <h4>Currently logged in as: {{user}}</h4>
+  {{!-- {{#if posts.length}}
+    {{#each posts as |post|}}
+      {{> blog-post}}
+      <script src="./js/delete.js"></script>
+    {{/each}}
+  {{else}}
+    {{> nothings-here}}
+  {{/if}} 
+  {{> delete-popup}}
+{{else}} --}}
+<section style="display: flex; font-size: 3rem; justify-content: center; align-items center">
+  <a href="/login" >You must login first to view this page</a>
+</section>
+{{/if}}
+</section>
