@@ -8,8 +8,8 @@ A blog to share tips and tricks on web development.
 
 ## GitHub
 
-   ```
-(https://github.com/austintyrome/developer-blog)
-```
+https://github.com/austintyrome/developer-blog
+
 ##Contact
+
 austintyrome@gmail.com
