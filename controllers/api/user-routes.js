@@ -32,7 +32,7 @@ router.post('/login', async (req, res) => {
       
     });
     console.log(dbUserData);
-    const username = dbUserData.username;
+    // const username = dbUserData.username;
     if (!dbUserData) {
       res
         .status(400)
@@ -50,7 +50,7 @@ router.post('/login', async (req, res) => {
 
     req.session.save(() => {
       req.session.loggedIn = true;
-      req.session.username = username;
+      req.session.username = dbUserData.username;;
       console.log('user: ' + req.session.username);
 
       res
